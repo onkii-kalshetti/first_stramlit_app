@@ -40,7 +40,7 @@ streamlit.write('The user entered ', fruit_choice)
 #add_my_fruit=streamlit.text_input('What fruit would you like information about?','Jackfruit')
 #streamlit.write('Thanks for adding ', fruit_choice)
 #streamlit.text(fruityvice_response.json())
-streamlit.stop()
+#streamlit.stop()
 streamlit.header("The fruit load list contains:")
 def get_fruit_load_list():
    with my_cnx.cursor() as my_cur:
