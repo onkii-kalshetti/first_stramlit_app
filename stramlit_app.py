@@ -37,8 +37,8 @@ except URLERROR as e:
   streamlit.error()
     
 streamlit.write('The user entered ', fruit_choice)
-#add_my_fruit=streamlit.text_input('What fruit would you like information about?')
-#streamlit.write('Thanks for adding ', add_my_fruit)
+add_my_fruit=streamlit.text_input('What fruit would you like information about?','jackfruit')
+streamlit.write('Thanks for adding ', add_my_fruit)
 #streamlit.text(fruityvice_response.json())
 #streamlit.stop()
 streamlit.header("The fruit load list contains:")
